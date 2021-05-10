@@ -1,5 +1,8 @@
 package com.journaldev.spring.controller;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.nio.CharBuffer;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -56,6 +59,10 @@ public class HomeController {
 	{
 		p1=p1;
 		s1=s1;
+		
+		File configLocation = new File("E://Test.txt"); // JAVA-S0406
+		BufferedReader configReader = null;
+		CharBuffer configBuf = CharBuffer.wrap(new String());
 	}
 		
 		
