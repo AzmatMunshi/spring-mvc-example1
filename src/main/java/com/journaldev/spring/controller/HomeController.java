@@ -42,11 +42,18 @@ public class HomeController {
 		System.out.println("User Page Requested");
 		model.addAttribute("userName", user.getUserName());
 		for (int i = 0; i < 10; ++i) {
-79              for (int j = 0; j < 10; ++i) {
-80                 
-81            }
-82           }
+              for (int j = 0; j < 10; ++i) {
+                 
+            }
+           }
 		
 		return "user";
 	}
+	
+	public void assignment(int p1, String s1)
+	{
+		int p1=p1;
+		String s1=s1;
+	}
+		
 }
