@@ -50,10 +50,13 @@ public class HomeController {
 		return "user";
 	}
 	
+	int p1;
+	String s1;
 	public void assignment(int p1, String s1)
 	{
-		int p1=p1;
-		String s1=s1;
+		p1=p1;
+		s1=s1;
 	}
+		
 		
 }
